@@ -13,12 +13,12 @@ BuildArch:	noarch
 Requires:	python-geoip python-metalink
 
 %description
-This module is for creation of metalinks from a list of mirrors with their preference
-relative to clients' geographical location.
+This module is for creation of metalinks from a list of mirrors with their
+preference relative to clients' geographical location.
 
-While it's primary target of use is the Mandriva Linux distribution and downloading
-of it's packages, it aims to be written in a generic and portable way making it
-usable for other purposes as well.
+While it's primary target of use is the Mandriva Linux distribution and
+downloading of it's packages, it aims to be written in a generic and portable
+way making it usable for other purposes as well.
 
 %prep
 %setup -q -n %{oname}-%{version}
