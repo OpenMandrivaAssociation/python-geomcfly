@@ -8,6 +8,7 @@ Source0:	%{oname}-%{version}.tar.gz
 URL:		http://geomcfly.sourceforge.net/
 License:	GPLv2+
 Group:		Development/Python
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 Requires:	python-geoip python-metalink
 
