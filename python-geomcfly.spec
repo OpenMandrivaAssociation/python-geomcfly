@@ -29,7 +29,7 @@ way making it usable for other purposes as well.
 rm -rf %{buildroot}
 install -m644 %{oname}.py -D %{buildroot}%{python_sitelib}/%{oname}.py
 install -m755 %{oname}.py.cgi -D %{buildroot}/var/www/cgi-bin/%{oname}.py.cgi
-install -d %{buildroot}%{_localstatedir}/%{oname}
+install -d %{buildroot}%{_localstatedir}/lib/%{oname}
 install -d %{buildroot}/var/run/%{oname}
 touch %{buildroot}/var/run/%{oname}/lock
 
@@ -40,7 +40,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{python_sitelib}/%{oname}.py
 /var/www/cgi-bin/%{oname}.py.cgi
-%attr(-,apache,apache) %{_localstatedir}/%{oname}
+%attr(-,apache,apache) %{_localstatedir}/lib/%{oname}
 %attr(-,apache,apache) /var/run/%{oname}/lock
 %ghost /var/run/%{oname}/lock
 
