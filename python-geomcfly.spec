@@ -3,7 +3,7 @@
 Summary:	Geolocalized Metalinks created on the Fly
 Name:		python-%{oname}
 Version:	0.8.1
-Release:	%mkrel 5
+Release:	%mkrel 6
 Source0:	%{oname}-%{version}.tar.gz
 URL:		http://geomcfly.sourceforge.net/
 License:	GPLv2+
