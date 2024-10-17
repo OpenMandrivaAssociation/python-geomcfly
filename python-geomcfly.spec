@@ -5,7 +5,7 @@ Name:		python-%{oname}
 Version:	0.8.1
 Release:	8
 Source0:	%{oname}-%{version}.tar.gz
-URL:		http://geomcfly.sourceforge.net/
+URL:		https://geomcfly.sourceforge.net/
 License:	GPLv2+
 Group:		Development/Python
 BuildArch:	noarch
